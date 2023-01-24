@@ -1,0 +1,18 @@
+Index: src/Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Calculator {\r\n\r\n    //todo implement add,subtract,multiply and divide\r\n\r\n   public int add(int a,int b){\r\n        int result = a+b;\r\n        return result;\r\n    }\r\n\r\n   // public int subtract(int a,int b){\r\n\r\n   // }\r\n/*\r\n    public int multiply(int a, int b){\r\n\r\n    }\r\n\r\n    public int divide(int a,int b){\r\n\r\n    }*/\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Calculator.java b/src/Calculator.java
+--- a/src/Calculator.java	
++++ b/src/Calculator.java	
+@@ -1,7 +1,5 @@
+ public class Calculator {
+ 
+-    //todo implement add,subtract,multiply and divide
+-
+    public int add(int a,int b){
+         int result = a+b;
+         return result;

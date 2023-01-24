@@ -1,0 +1,52 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello world!\");\r\n\r\n        Calculator calculator=new Calculator();\r\n\r\n        //Testen der Funktionen\r\n\r\n        //int result1=calculator.add(1,2);\r\n        int result2=calculator.subtract(5,3);\r\n\r\n\r\n        //int result3=calculator.multiply(2,5);\r\n        //int result4=calculator.divide(6,2);\r\n\r\n        //System.out.println(\"Summe: \"+result1);\r\n        System.out.println(\"Differenz: \"+result2);\r\n        /*\r\n        System.out.println(\"Produkt: \"+result3);\r\n        System.out.println(\"Quotient: \"+result4);\r\n         */\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 78d6c6bfff142124d8d41f8bed963985b08cdb07)
++++ b/src/Main.java	(date 1674569693394)
+@@ -6,14 +6,14 @@
+ 
+         //Testen der Funktionen
+ 
+-        //int result1=calculator.add(1,2);
++        int result1=calculator.add(1,2);
+         int result2=calculator.subtract(5,3);
+ 
+ 
+         //int result3=calculator.multiply(2,5);
+         //int result4=calculator.divide(6,2);
+ 
+-        //System.out.println("Summe: "+result1);
++        System.out.println("Summe: "+result1);
+         System.out.println("Differenz: "+result2);
+         /*
+         System.out.println("Produkt: "+result3);
+Index: src/Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Calculator {\r\n\r\n    //todo implement add,subtract,multiply and divide\r\n\r\n   /*public int add(int a,int b){\r\n        int result = a+b;\r\n        return result;\r\n    }*/\r\n\r\n   public int subtract(int a,int b){\r\n    int result=a-b;\r\n    return result;\r\n    }\r\n/*\r\n    public int multiply(int a, int b){\r\n\r\n    }\r\n\r\n    public int divide(int a,int b){\r\n\r\n    }*/\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Calculator.java b/src/Calculator.java
+--- a/src/Calculator.java	(revision 78d6c6bfff142124d8d41f8bed963985b08cdb07)
++++ b/src/Calculator.java	(date 1674569693410)
+@@ -1,11 +1,11 @@
+ public class Calculator {
+ 
+-    //todo implement add,subtract,multiply and divide
+ 
+-   /*public int add(int a,int b){
++
++   public int add(int a,int b){
+         int result = a+b;
+         return result;
+-    }*/
++    }
+ 
+    public int subtract(int a,int b){
+     int result=a-b;
